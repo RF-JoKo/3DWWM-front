@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background: linear-gradient(90deg, #3E4044 0%, #28292F 100%);
+}
+
+a
+{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    z-index: 1;
+}
+
+nav
+{
+    gap: 25px;
+}
+
+section
+{
+    height: 100vh;
+    color: #F5F5F5;
+    width: min(1196px, 100%);
+    margin: auto;
+}
+
+video
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title
+{
+    font-weight: 300;
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.title::before
+{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 10px;
+    margin-bottom: 8px;
+    background: #89FFFD;
+    border-radius: 30px;
+}
+
+img
+{
+    border-radius: 30px;
+}
+
+.sale-gallery
+{
+    gap: 30px;
+}
+
+.product-title
+{
+    font-weight: 300;
+}
+
+.card-content
+{
+    position: relative;
+}
+
+.price
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.designer
+{
+    color: #89FFFD;
+}
