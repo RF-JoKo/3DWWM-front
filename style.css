@@ -110,3 +110,35 @@ img
 {
     color: #89FFFD;
 }
+
+@media screen and (max-width:800px)
+{
+    #who
+    {
+        padding: 50px 25px;
+        flex-direction: column;
+    }
+
+    #who img
+    {
+        margin: 25px;
+    }
+
+    #best
+    {
+        padding: 175px 25px 25px;
+    }
+
+    .sale-gallery
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:400px)
+{
+    .title
+    {
+        font-size: 32px;
+    }
+}
